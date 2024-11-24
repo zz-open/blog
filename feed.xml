@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>斯是陋室-惟吾德馨</title>
+        <link>https://blog.zdog.top/</link>
+        <description>撸码的每一天都应该被铭记</description>
+        <lastBuildDate>Sun, 24 Nov 2024 12:02:20 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>斯是陋室-惟吾德馨</title>
+            <url>https://blog.zdog.top/avatar.jpeg</url>
+            <link>https://blog.zdog.top/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 仔仔</copyright>
+        <atom:link href="https://blog.zdog.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[jdbc连接]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>不同版本可能连接参数不同，主要表现是驱动不同。</p>
+<h2>mysql8.0以前</h2>
+<pre><code class="language-text">driverClassName=com.mysql.jdbc.Driver
+url=jdbc:mysq</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mybatis]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://mybatis.org/mybatis-3/zh/configuration.html">官方文档</a></li>
+<li>[参考](<a href="https://www.kuangstudy.com/zl">https://www.kuangstudy.com/zl</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis/index" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mybatis 详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://mybatis.org/mybatis-3/zh_CN/getting-started.html">mybatis getting-started</a></li>
+</ul>
+<h2>构成</h2>
+<ul>
+<li>myb</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[mybatis懒加载]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>全局设置</h2>
+<pre><code class="language-xml">&lt;settings&gt;
+   &lt;!--设置为 true 启用延迟加载，默认为 false。当设置为 true 时，MyBatis 将延迟加载对象的属性。--&gt;
+  &lt;se</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[mybatis-config.xml]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://mybatis.org/mybatis-3/zh_CN/configuration.html">mybatis-config.xml</a></li>
+<li>[mybatis sqlmap](</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[打印sql日志]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis/print-sql</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis/print-sql</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>方案一</h2>
+<pre><code class="language-yaml"># application.yml
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.loggin</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis/print-sql" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis/print-sql</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[@Configuration 注解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/Configuration</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/Configuration</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>@Configuration</h2>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/Configuration" target="_blank">https://blog.zdog.top/posts/java-stack/spring/Configuration</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用注解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/annotation-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/annotation-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>@Component</h2>
+<p>该注解用于将一个类标识为组件（Component）。它是通用的注解，表示一个普通的 Spring 组件。被 @Component 注解标记的类将由 Spring 自动</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/annotation-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring/annotation-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[applicationContext.xml详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>beans 标签</h2>
+<pre><code class="language-xml">&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;
+       xmlns:xsi=&quot;h</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[@Autowired @Resource区别]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>@Autowired</h2>
+<ul>
+<li>spring框架提供</li>
+<li>可以标注在属性上、方法上和构造器上，来完成自动装配</li>
+<li>默认是根据属性类型注入，byType</li>
+<li>当接口有多个实现类的时候，需要搭配@Q</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff" target="_blank">https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[什么是bean]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Java Bean就是一种类，并非所有的类都是 Java Bean，其是一种特殊的类，具有以下特征：</p>
+<ul>
+<li>提供一个默认的无参构造函数。</li>
+<li>需要被序列化并且实现了 Serializable 接</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy" target="_blank">https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用注解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/integration-myabtis</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/integration-myabtis</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>@Bean</h2>
+<p>用在方法上，将当前方法的返回值对象放到容器当中！可以理解为前者是由spring自动创建对象，而@Bean创建对象是交给我们自己来控制。</p>
+<p>@Bean一般出现在方法上面，也可用</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/integration-myabtis" target="_blank">https://blog.zdog.top/posts/java-stack/spring/integration-myabtis</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用包介绍]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/jar-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/jar-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>spring-context</h2>
+<pre><code class="language-xml">&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-conte</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/jar-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring/jar-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[bean对象生命周期]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/lifecycle</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/lifecycle</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>调用无参构造，创建bean对象</li>
+<li>调用set方法设置bean对象的属性</li>
+<li>bean后置处理器(初始化前)</li>
+<li>bean对象初始化(调用指定初始化方法)</li>
+<li>bean后置处理器(初始化后)</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/lifecycle" target="_blank">https://blog.zdog.top/posts/java-stack/spring/lifecycle</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[事务传播]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/transaction-propagation</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/transaction-propagation</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Propagation.REQUIRED</h2>
+<p>Spring默认传播行为是reuqired<br>
+当前有事务，使用当前事务<br>
+当前没有事务，创建新事物，即保证当前方法在事务中</p>
+<h2>Propagati</h2>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/transaction-propagation" target="_blank">https://blog.zdog.top/posts/java-stack/spring/transaction-propagation</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[@Transcation注解事务不生效场景]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>数据库引擎不支持事务</h2>
+<p>mysql的ISAM不支持事务</p>
+<h2>被注解的方法为私有方法private</h2>
+<p>Spring的事务代理通常是通过Java动态代理或CGLIB动态代理生成的，这些代理要求</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene" target="_blank">https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[数据校验]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/valid</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/valid</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/valid" target="_blank">https://blog.zdog.top/posts/java-stack/spring/valid</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[常用注解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>@Controller</h2>
+<p>用来定义一个controller类</p>
+<h2>@RestController</h2>
+<p>用来定义一个RestController类，相当于同时使用了@Controller和@R</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[常见问题]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/faq</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/faq</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>conflicts with existing, non-compatible bean definition of same name and class</h2>
+<p>SpringMVC中所有的be</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/faq" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/faq</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringMVC整体流程]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>创建一个java工程</li>
+<li>引入spring相关jar包</li>
+<li>创建web.xml文件，配置DispatcherServlet</li>
+<li>创建SpringMVC配置文件，配置SpringMVC相关参数</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringMVC-web-xml详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>web.xml</h2>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/n</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringMVC-xml详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>springmvc-servlet.xml</h2>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;beans xmlns=&quot;http://www.</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Spring Boot 常用命令]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/springboot/command</link>
+            <guid>https://blog.zdog.top/posts/java-stack/springboot/command</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>mvn开启spring boot服务</h2>
+<pre><code class="language-shell">mnvw spring-boot:run --quiet
+# 或者
+mnvw.cmd spring-boot:run --quiet</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/springboot/command" target="_blank">https://blog.zdog.top/posts/java-stack/springboot/command</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat</link>
+            <guid>https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>dokcer安装tomcat</h1>
+<ul>
+<li><a href="https://github.com/apache/tomcat/tree/main/conf">tomcat github</a></li>
+</ul>
+<h2>修改</h2>
+<h3>manag</h3>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat" target="_blank">https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[设置UTF-8编码]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8</link>
+            <guid>https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>启动增加参数</h2>
+<pre><code class="language-shell">-Dfile.encoding=UTF-8
+# 或者
+CATALINA_OPTS=&quot;$CATALINA_OPTS -Dfile.encoding=UTF-8</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8" target="_blank">https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat</link>
+            <guid>https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>windows安装tomcat</h1>
+<ul>
+<li><a href="https://tomcat.apache.org/">官网</a></li>
+</ul>
+<h2>下载</h2>
+<p>tomcat 9</p>
+<pre><code class="language-shell">https://dlcdn.apache.o</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat" target="_blank">https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[web.xml详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Web.xml是Java Web项目中的一个配置文件，主要用于配置首页、Filter、Listener、Servlet等。</p>
+<p>tomcat在部署启动web应用时，会解析加载${CATALINA_H</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[webapp详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>文件上传下载</h2>
+<p>webapp目录下的文件和文件夹在build的时候，如果不是空的，会自动打包。</p>
+<p>尤其是上传下载功能的时候，不需要额为配置build</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[cookie详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Cookie]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/cookie/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/cookie/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/cookie/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/cookie/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Filter]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/filter/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/filter/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/filter/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/filter/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[EL表达式]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>使得JSP写起来更简单，简洁，主要用于获取作用域中的数据</li>
+<li>用来替换作用域对象.getAttribute(&quot;name&quot;)</li>
+</ul>
+<h2>基本应用</h2>
+<ul>
+<li>${<a href="http://scope.name">scope.name</a>}获取具体某个作用域</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JSP]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>JSP（全称Java Server Pages）是由Sun Microsystems公司主导创建的一种动态网页技术标准。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[内置对象]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>jsp自动创建的对象，可以直接使用</p>
+<h2>内置对象</h2>
+<ul>
+<li>request, javax.servlet.http.HttpServletRequest</li>
+<li>response, javax.serv</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JSP指令]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>JSP 指令的种类</h2>
+<p>JSP 指令可以分为以下几种类型：</p>
+<ul>
+<li>页面指令（Page Directive）：用于设置页面级属性，如语言、错误页面和缓冲区大小。</li>
+<li>包含指令（Include D</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JSP语法]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>原理</h2>
+<p>tomcat等web容器会把jsp文件编译为.class文件运行，最终将响应结果返回给客户端。</p>
+<p>JSP本质上就是一个servlet类，编译器会编译成servlet代码，查看字节码就</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JSTL]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://www.oracle.com/java/technologies/jstl.html">oracle jstl</a></li>
+<li>[apache taglibs](<a href="https://tom">https://tom</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Listener]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/listener/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/listener/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/listener/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/listener/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[监听器详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>ServletContextAttributeListener 用来感知ServlerContext对象属性变化，比如添加或删除属性变化</li>
+<li>ServletContextListener 用来</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[servlet 注解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>&quot;@WebServlet&quot;</h2>
+<pre><code class="language-java">@WebServlet(urlPatterns = &quot;/hello&quot;)
+</code></pre>
+<h2>&quot;@MultipartConfig&quot;</h2>
+<p>该注解只能用于se</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[servlet 内置方法]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>生命周期</h2>
+<pre><code class="language-text">1.加载，实例化。默认情况下第一次访问才会被创建，可以通过配置修改loadOnStartUp=1
+    1.负整数：第一次访问创建
+    2.正整数或0：服务</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[servlet 内置对象]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>ServletConfig</h2>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Servlet]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/servlet/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/servlet/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/servlet/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/servlet/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[xml方式定义]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>示例</h2>
+<pre><code class="language-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/j</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[c3p0详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://www.mchange.com/projects/c3p0/">c3p0官网</a></li>
+</ul>
+<h2>如何连接数据库</h2>
+<h3>直接代码编写参数配置</h3>
+<h3>配置文件</h3>
+<p>文件名固定就叫 c</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[commons-dbutils]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://commons.apache.org/proper/commons-dbutils/">commons-dbutils</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[commons-dbutils FAQ]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>java.math.BigInteger cannot be cast to java.lang.Long</h2>
+<pre><code class="language-java">@Test
+    public void testInser</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[commons-dbutils详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://commons.apache.org/proper/commons-dbutils/">commons-dbutils</a></li>
+</ul>
+<h2>API介绍</h2>
+<h3>QueryRunne</h3>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[commons-dbutils]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://commons.apache.org/proper/commons-dbutils/">commons-dbutils</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux安装Maven]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven</link>
+            <guid>https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://maven.apache.org/download.cgi">maven官网下载</a></li>
+</ul>
+<h2>下载</h2>
+<pre><code class="language-shell">wget https://dlcdn.apache.org</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven" target="_blank">https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[环境搭建]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/maven/build-env/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/maven/build-env/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/maven/build-env/index" target="_blank">https://blog.zdog.top/posts/java-stack/maven/build-env/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[windows安装Maven]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven</link>
+            <guid>https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://maven.apache.org/download.cgi">maven官网下载</a></li>
+</ul>
+<h2>下载</h2>
+<pre><code class="language-shell">wget https://dlcdn.apache.org</code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven" target="_blank">https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/changes</link>
+            <guid>https://blog.zdog.top/posts/changes</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>更新日志</h1>
+<h2>2024-09-05</h2>
+<ul>
+<li>完成: rust-stack</li>
+<li>完成: lua-stack</li>
+<li>完成: frontend-stack</li>
+<li>完成: business-stack</li>
+<li>完</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/changes" target="_blank">https://blog.zdog.top/posts/changes</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Hibernate]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/hibernate/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/hibernate/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/hibernate/index" target="_blank">https://blog.zdog.top/posts/java-stack/hibernate/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/java-stack/interview/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/interview/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Spring面试问题</h1>
+<h2>1.@Autowired和@Resource区别?</h2>
+<h4>@Autowired</h4>
+<ul>
+<li>@AutoWired是spring中注解，主要是使用类型来进行注入</li>
+<li>注</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/interview/index" target="_blank">https://blog.zdog.top/posts/java-stack/interview/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/java-stack/interview/java</link>
+            <guid>https://blog.zdog.top/posts/java-stack/interview/java</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>java基础面试问题</h1>
+<h2>1.ThreadLocal原理？</h2>
+<h2>2.HashMap原理？</h2>
+<h2>3.ArrayList原理？</h2>
+<h2>4.ConcurrentHashMap原理？</h2>
+<h2></h2>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/interview/java" target="_blank">https://blog.zdog.top/posts/java-stack/interview/java</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <link>https://blog.zdog.top/posts/java-stack/interview/spring</link>
+            <guid>https://blog.zdog.top/posts/java-stack/interview/spring</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>Spring 面试问题</h1>
+<h2>@Autowired和@Resource区别?</h2>
+<h4>@Autowired</h4>
+<ul>
+<li>@AutoWired是spring中注解，主要是使用类型来进行注入</li>
+<li>注解</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/interview/spring" target="_blank">https://blog.zdog.top/posts/java-stack/interview/spring</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jcl]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/jcl/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/jcl/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/jcl/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/jcl/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jul]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/jul/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/jul/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/jul/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/jul/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jul 详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>java.util.logging</p>
+<p>UL全称Java util Logging是java原生的日志框架，使用时不需要另外引用第三方类库，相对其他日志框<br>
+架使用方便，学习简单，能够在小型应用中灵活</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[log4j]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/log4j/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/log4j/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>已成为历史</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/log4j/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/log4j/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[log4j2]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/log4j2/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/log4j2/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/log4j2/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/log4j2/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[log4j2详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://logging.apache.org/log4j/2.12.x/manual/appenders.html">log4j2官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[logback]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/logback/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/logback/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://logback.qos.ch/">logback官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/logback/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/logback/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[logback详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Logback是Log4j项目的继承者，由Log4j创始人Ceki Gülcü基于过去十年企业级日志系统设计经验打造。Logback比目前所有已存的日志系统要快，它提供了其它日志系统缺失的独特和有</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[slf4j]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/slf4j/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/slf4j/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>用来替代JCL的又一抽象实现。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/slf4j/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/slf4j/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[slf4j详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<p>SLF4J 是一个为Java提供简单日志的门面。它并不是一个具体的日志实现，而是提供了一个通用的API，允许开发者选择底层的日志框架。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[IDEA创建javaweb项目]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>org.apache.maven.archetypes:maven-archetype-webapp</h2>
+<p>使用maven插件创建出来的项目web.xml版本过低，需要修改</p>
+<p>WEB-INF/w</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[基础]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/base/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/base/index</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/base/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/base/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[javaweb基础概念详解]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro</guid>
+            <pubDate>Sun, 24 Nov 2024 12:00:49 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>WEB-INF目录</h2>
+<p>WEB-INF目录是一个重要的安全区域，其中包含了所有对客户端不可见的文件和资源。</p>
+<p>这些资源包括web.xml配置文件、class文件、JAR文件、数据库配置文件等。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[mac-m3安装jdk]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk</guid>
+            <pubDate>Thu, 07 Nov 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://www.oracle.com/cn/java/technologies/downloads/archive/">oracle官网</a></li>
+</ul>
+<p>登录到oracle官网，把安装包下载好。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[商务合作说明]]></title>
+            <link>https://blog.zdog.top/posts/business/cooperation/index</link>
+            <guid>https://blog.zdog.top/posts/business/cooperation/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>个人履历</h2>
+<p>本人拥有7年以上开发经验，全栈型工程师，擅长web开发，目前就职于一家在线教育公司。</p>
+<h2>个人技能</h2>
+<ul>
+<li>java python golang php rust c c++ sh</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/business/cooperation/index" target="_blank">https://blog.zdog.top/posts/business/cooperation/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[java日志]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-log/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-log/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-log/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-log/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[java-web]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-web/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-web/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-web/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-web/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JDBC]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jdbc/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jdbc/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jdbc/index" target="_blank">https://blog.zdog.top/posts/java-stack/jdbc/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[JPA]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/jpa/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/jpa/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/jpa/index" target="_blank">https://blog.zdog.top/posts/java-stack/jpa/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Maven]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/maven/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/maven/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://developer.oracle.com/java/">官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/maven/index" target="_blank">https://blog.zdog.top/posts/java-stack/maven/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mybatis-Flex]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis-flex/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis-flex/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://mybatis-flex.com/">官方文档</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis-flex/index" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis-flex/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mybatis-Plus]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/mybatis-plus/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/mybatis-plus/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://baomidou.com/">官方文档</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/mybatis-plus/index" target="_blank">https://blog.zdog.top/posts/java-stack/mybatis-plus/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Spring]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://start.spring.io/">spring</a></li>
+</ul>
+<h2>版本</h2>
+<p>通常版本介绍会在官网的overview中说明，例如[去查看](<a href="https://docs.spring.io/s">https://docs.spring.io/s</a></p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring/index" target="_blank">https://blog.zdog.top/posts/java-stack/spring/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringCloud]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-cloud/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-cloud/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-cloud/index" target="_blank">https://blog.zdog.top/posts/java-stack/spring-cloud/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringMVC]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/spring-mvc/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/spring-mvc/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://start.spring.io/">spring</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/spring-mvc/index" target="_blank">https://blog.zdog.top/posts/java-stack/spring-mvc/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[SpringBoot]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/springboot/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/springboot/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://start.spring.io/">spring</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/springboot/index" target="_blank">https://blog.zdog.top/posts/java-stack/springboot/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[如何使用Thymeleaf]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use</link>
+            <guid>https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>如何使用？</h2>
+<h2>新版本</h2>
+<h3>引入jar</h3>
+<pre><code class="language-xml"> &lt;!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf </code></pre>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use" target="_blank">https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Thymeleaf]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/thymeleaf/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/thymeleaf/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://www.thymeleaf.org/">官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/thymeleaf/index" target="_blank">https://blog.zdog.top/posts/java-stack/thymeleaf/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tomcat]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/tomcat/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/tomcat/index</guid>
+            <pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://tomcat.apache.org/">tomcat官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/tomcat/index" target="_blank">https://blog.zdog.top/posts/java-stack/tomcat/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[异常介绍]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Unchecked Exception</h2>
+<p>Unchecked exception 是指在编译时并不要求必须处理的异常。</p>
+<p>Unchecked exception 包括 RuntimeExc</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[异常]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/exception/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/exception/index</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/exception/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/exception/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Files.copy]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>可以使用 Files 工具类的 copy(Path source,Path target,CopyOption... options) 拷贝文件或者目录。<br>
+如果目标文件存在，那么赋值将失败，除非</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[函数工具]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[小知识]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[javax与jakarta区别]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>JavaEE被Oracle捐献给Apache了。目前最高版本是 JavaEE8；</p>
+<p>Apache把JavaEE换名了，以后不叫JavaEE了，以后叫做 jakarta EE。</p>
+<p>以后没有Java</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[properties文件]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro</guid>
+            <pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>默认编码为ISO-8859-1, 只能写一些简单字符。</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[商务]]></title>
+            <link>https://blog.zdog.top/posts/business/index</link>
+            <guid>https://blog.zdog.top/posts/business/index</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/business/index" target="_blank">https://blog.zdog.top/posts/business/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Java]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/index</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://developer.oracle.com/java/">官网</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/index" target="_blank">https://blog.zdog.top/posts/java-stack/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[接单注意事项]]></title>
+            <link>https://blog.zdog.top/posts/business/cooperation/faq</link>
+            <guid>https://blog.zdog.top/posts/business/cooperation/faq</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>abo</h2>
+<p>臭名昭著的一套代码模式，充斥在各个编程语言，严重扰乱市场，质量堪忧。</p>
+<ul>
+<li>架构设计有问题，都是单表操作，一旦夸表发现很难更改，维护困难</li>
+<li>数据表是中文拼音命名</li>
+<li>前端nodejs</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/business/cooperation/faq" target="_blank">https://blog.zdog.top/posts/business/cooperation/faq</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[前端接单案例]]></title>
+            <link>https://blog.zdog.top/posts/business/job-case/frontend-case</link>
+            <guid>https://blog.zdog.top/posts/business/job-case/frontend-case</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/business/job-case/frontend-case" target="_blank">https://blog.zdog.top/posts/business/job-case/frontend-case</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[接单案例]]></title>
+            <link>https://blog.zdog.top/posts/business/job-case/index</link>
+            <guid>https://blog.zdog.top/posts/business/job-case/index</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/business/job-case/index" target="_blank">https://blog.zdog.top/posts/business/job-case/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[java接单案例]]></title>
+            <link>https://blog.zdog.top/posts/business/job-case/java-case</link>
+            <guid>https://blog.zdog.top/posts/business/job-case/java-case</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Jsp+Servlet</h2>
+<ul>
+<li>jsp+servlet 登录+对用户信息的增删改查</li>
+<li>jsp+servlet 对学生信息的增删改查</li>
+<li>jsp+servlet 冰雪旅游网[黑马旅游网改编过来</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/business/job-case/java-case" target="_blank">https://blog.zdog.top/posts/business/job-case/java-case</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Mysql集群接单案例]]></title>
+            <link>https://blog.zdog.top/posts/business/job-case/mysql-cluster-case</link>
+            <guid>https://blog.zdog.top/posts/business/job-case/mysql-cluster-case</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/business/job-case/mysql-cluster-case" target="_blank">https://blog.zdog.top/posts/business/job-case/mysql-cluster-case</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[python接单案例]]></title>
+            <link>https://blog.zdog.top/posts/business/job-case/python-case</link>
+            <guid>https://blog.zdog.top/posts/business/job-case/python-case</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/business/job-case/python-case" target="_blank">https://blog.zdog.top/posts/business/job-case/python-case</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[java基础]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/index</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[环境搭建]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/index</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/index</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/index" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jdk环境变量]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Java Path</h2>
+<p>Java Path 通常指的是JDK的安装路径。JDK是Java Development Kit的缩写，它包含了Java编译器、Java运行时环境以及一些工具，如Jav</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jdk介绍]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>各厂家jdk区别</h2>
+<ul>
+<li>
+<p>OpenJDK<br>
+​OpenJDK 是 JDK 的社区版，社区主要由Oracle主导，免费。</p>
+</li>
+<li>
+<p>Oracle JDK<br>
+​Oracle JDK 是Java官方Orac</p>
+</li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[jenv]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://www.jenv.be/">jenv 官网</a></li>
+<li><a href="https://github.com/jenv/jenv">jenv github</a></li>
+</ul>
+<p>Linux环境下Java多版本管理</p>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[Linux安装jdk]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>假设已下载好安装包。</p>
+<h2>如何安装</h2>
+<pre><code class="language-shell">tar -zxvf xxx.tar.gz
+
+mv java-se-8u41-ri /usr/local/java8/
+</code></pre>
+<h2>添加环</h2>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+        <item>
+            <title><![CDATA[windows安装jdk]]></title>
+            <link>https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk</link>
+            <guid>https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk</guid>
+            <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://adoptium.net/zh-CN/temurin/releases/">adoptium</a></li>
+<li>[openlogic](<a href="https://www.openlogic.com">https://www.openlogic.com</a></li>
+</ul>
+<br/><p>访问 <a href="https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk" target="_blank">https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (仔仔)</author>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,1304 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "斯是陋室-惟吾德馨",
+    "home_page_url": "https://blog.zdog.top/",
+    "feed_url": "https://blog.zdog.top/feed.json",
+    "description": "撸码的每一天都应该被铭记",
+    "icon": "https://blog.zdog.top/avatar.jpeg",
+    "author": {
+        "name": "仔仔",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>不同版本可能连接参数不同，主要表现是驱动不同。</p>\n<h2>mysql8.0以前</h2>\n<pre><code class=\"language-text\">driverClassName=com.mysql.jdbc.Driver\nurl=jdbc:mysq</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/jdbc-connection",
+            "title": "jdbc连接",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://mybatis.org/mybatis-3/zh/configuration.html\">官方文档</a></li>\n<li>[参考](<a href=\"https://www.kuangstudy.com/zl\">https://www.kuangstudy.com/zl</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis/index",
+            "title": "Mybatis",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://mybatis.org/mybatis-3/zh_CN/getting-started.html\">mybatis getting-started</a></li>\n</ul>\n<h2>构成</h2>\n<ul>\n<li>myb</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis/mybatis-intro",
+            "title": "Mybatis 详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>全局设置</h2>\n<pre><code class=\"language-xml\">&lt;settings&gt;\n   &lt;!--设置为 true 启用延迟加载，默认为 false。当设置为 true 时，MyBatis 将延迟加载对象的属性。--&gt;\n  &lt;se</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis/mybatis-lazy-load",
+            "title": "mybatis懒加载",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://mybatis.org/mybatis-3/zh_CN/configuration.html\">mybatis-config.xml</a></li>\n<li>[mybatis sqlmap](</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis/mybatis-xml",
+            "title": "mybatis-config.xml",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>方案一</h2>\n<pre><code class=\"language-yaml\"># application.yml\nmybatis:\n  configuration:\n    log-impl: org.apache.ibatis.loggin</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis/print-sql\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis/print-sql</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis/print-sql",
+            "title": "打印sql日志",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>@Configuration</h2>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/Configuration\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/Configuration</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/Configuration",
+            "title": "@Configuration 注解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>@Component</h2>\n<p>该注解用于将一个类标识为组件（Component）。它是通用的注解，表示一个普通的 Spring 组件。被 @Component 注解标记的类将由 Spring 自动</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/annotation-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/annotation-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/annotation-intro",
+            "title": "常用注解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>beans 标签</h2>\n<pre><code class=\"language-xml\">&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;\n       xmlns:xsi=&quot;h</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/applicationContext-xml-intro",
+            "title": "applicationContext.xml详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>@Autowired</h2>\n<ul>\n<li>spring框架提供</li>\n<li>可以标注在属性上、方法上和构造器上，来完成自动装配</li>\n<li>默认是根据属性类型注入，byType</li>\n<li>当接口有多个实现类的时候，需要搭配@Q</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/autowired-resource-diff",
+            "title": "@Autowired @Resource区别",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>Java Bean就是一种类，并非所有的类都是 Java Bean，其是一种特殊的类，具有以下特征：</p>\n<ul>\n<li>提供一个默认的无参构造函数。</li>\n<li>需要被序列化并且实现了 Serializable 接</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/bean介绍 copy",
+            "title": "什么是bean",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>@Bean</h2>\n<p>用在方法上，将当前方法的返回值对象放到容器当中！可以理解为前者是由spring自动创建对象，而@Bean创建对象是交给我们自己来控制。</p>\n<p>@Bean一般出现在方法上面，也可用</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/integration-myabtis\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/integration-myabtis</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/integration-myabtis",
+            "title": "常用注解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>spring-context</h2>\n<pre><code class=\"language-xml\">&lt;!-- https://mvnrepository.com/artifact/org.springframework/spring-conte</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/jar-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/jar-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/jar-intro",
+            "title": "常用包介绍",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li>调用无参构造，创建bean对象</li>\n<li>调用set方法设置bean对象的属性</li>\n<li>bean后置处理器(初始化前)</li>\n<li>bean对象初始化(调用指定初始化方法)</li>\n<li>bean后置处理器(初始化后)</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/lifecycle\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/lifecycle</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/lifecycle",
+            "title": "bean对象生命周期",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Propagation.REQUIRED</h2>\n<p>Spring默认传播行为是reuqired<br>\n当前有事务，使用当前事务<br>\n当前没有事务，创建新事物，即保证当前方法在事务中</p>\n<h2>Propagati</h2>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/transaction-propagation\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/transaction-propagation</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/transaction-propagation",
+            "title": "事务传播",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>数据库引擎不支持事务</h2>\n<p>mysql的ISAM不支持事务</p>\n<h2>被注解的方法为私有方法private</h2>\n<p>Spring的事务代理通常是通过Java动态代理或CGLIB动态代理生成的，这些代理要求</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/transcation-annotation-invalid-scene",
+            "title": "@Transcation注解事务不生效场景",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/valid\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/valid</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/valid",
+            "title": "数据校验",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>@Controller</h2>\n<p>用来定义一个controller类</p>\n<h2>@RestController</h2>\n<p>用来定义一个RestController类，相当于同时使用了@Controller和@R</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/annotation-intro",
+            "title": "常用注解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>conflicts with existing, non-compatible bean definition of same name and class</h2>\n<p>SpringMVC中所有的be</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/faq\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/faq</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/faq",
+            "title": "常见问题",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li>创建一个java工程</li>\n<li>引入spring相关jar包</li>\n<li>创建web.xml文件，配置DispatcherServlet</li>\n<li>创建SpringMVC配置文件，配置SpringMVC相关参数</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-flow",
+            "title": "SpringMVC整体流程",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>web.xml</h2>\n<pre><code class=\"language-xml\">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/n</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-web-xml-intro",
+            "title": "SpringMVC-web-xml详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>springmvc-servlet.xml</h2>\n<pre><code class=\"language-xml\">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;beans xmlns=&quot;http://www.</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/springmvc-xml-intro",
+            "title": "SpringMVC-xml详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>mvn开启spring boot服务</h2>\n<pre><code class=\"language-shell\">mnvw spring-boot:run --quiet\n# 或者\nmnvw.cmd spring-boot:run --quiet</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/springboot/command\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/springboot/command</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/springboot/command",
+            "title": "Spring Boot 常用命令",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>dokcer安装tomcat</h1>\n<ul>\n<li><a href=\"https://github.com/apache/tomcat/tree/main/conf\">tomcat github</a></li>\n</ul>\n<h2>修改</h2>\n<h3>manag</h3>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/tomcat/docker-install-tomcat",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>启动增加参数</h2>\n<pre><code class=\"language-shell\">-Dfile.encoding=UTF-8\n# 或者\nCATALINA_OPTS=&quot;$CATALINA_OPTS -Dfile.encoding=UTF-8</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/tomcat/how-to-setup-utf8",
+            "title": "设置UTF-8编码",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>windows安装tomcat</h1>\n<ul>\n<li><a href=\"https://tomcat.apache.org/\">官网</a></li>\n</ul>\n<h2>下载</h2>\n<p>tomcat 9</p>\n<pre><code class=\"language-shell\">https://dlcdn.apache.o</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/tomcat/windows-install-tomcat",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>Web.xml是Java Web项目中的一个配置文件，主要用于配置首页、Filter、Listener、Servlet等。</p>\n<p>tomcat在部署启动web应用时，会解析加载${CATALINA_H</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/base/web-xml-intro",
+            "title": "web.xml详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>文件上传下载</h2>\n<p>webapp目录下的文件和文件夹在build的时候，如果不是空的，会自动打包。</p>\n<p>尤其是上传下载功能的时候，不需要额为配置build</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/base/webapp-intro",
+            "title": "webapp详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/cookie/cookie-intro",
+            "title": "cookie详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/cookie/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/cookie/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/cookie/index",
+            "title": "Cookie",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/filter/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/filter/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/filter/index",
+            "title": "Filter",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li>使得JSP写起来更简单，简洁，主要用于获取作用域中的数据</li>\n<li>用来替换作用域对象.getAttribute(&quot;name&quot;)</li>\n</ul>\n<h2>基本应用</h2>\n<ul>\n<li>${<a href=\"http://scope.name\">scope.name</a>}获取具体某个作用域</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/el-intro",
+            "title": "EL表达式",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>JSP（全称Java Server Pages）是由Sun Microsystems公司主导创建的一种动态网页技术标准。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/index",
+            "title": "JSP",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>jsp自动创建的对象，可以直接使用</p>\n<h2>内置对象</h2>\n<ul>\n<li>request, javax.servlet.http.HttpServletRequest</li>\n<li>response, javax.serv</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-built-in-objects",
+            "title": "内置对象",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>JSP 指令的种类</h2>\n<p>JSP 指令可以分为以下几种类型：</p>\n<ul>\n<li>页面指令（Page Directive）：用于设置页面级属性，如语言、错误页面和缓冲区大小。</li>\n<li>包含指令（Include D</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-command",
+            "title": "JSP指令",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>原理</h2>\n<p>tomcat等web容器会把jsp文件编译为.class文件运行，最终将响应结果返回给客户端。</p>\n<p>JSP本质上就是一个servlet类，编译器会编译成servlet代码，查看字节码就</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/jsp-intro",
+            "title": "JSP语法",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://www.oracle.com/java/technologies/jstl.html\">oracle jstl</a></li>\n<li>[apache taglibs](<a href=\"https://tom\">https://tom</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/jsp/jstl-intro",
+            "title": "JSTL",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/listener/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/listener/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/listener/index",
+            "title": "Listener",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li>ServletContextAttributeListener 用来感知ServlerContext对象属性变化，比如添加或删除属性变化</li>\n<li>ServletContextListener 用来</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/listener/listener-intro",
+            "title": "监听器详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>&quot;@WebServlet&quot;</h2>\n<pre><code class=\"language-java\">@WebServlet(urlPatterns = &quot;/hello&quot;)\n</code></pre>\n<h2>&quot;@MultipartConfig&quot;</h2>\n<p>该注解只能用于se</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/servlet/annotation",
+            "title": "servlet 注解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>生命周期</h2>\n<pre><code class=\"language-text\">1.加载，实例化。默认情况下第一次访问才会被创建，可以通过配置修改loadOnStartUp=1\n    1.负整数：第一次访问创建\n    2.正整数或0：服务</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-fn",
+            "title": "servlet 内置方法",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>ServletConfig</h2>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/servlet/built-in-objects",
+            "title": "servlet 内置对象",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/servlet/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/servlet/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/servlet/index",
+            "title": "Servlet",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>示例</h2>\n<pre><code class=\"language-xml\">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;\n&lt;web-app xmlns=&quot;http://xmlns.jcp.org/xml/ns/j</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/servlet/xml-define",
+            "title": "xml方式定义",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://www.mchange.com/projects/c3p0/\">c3p0官网</a></li>\n</ul>\n<h2>如何连接数据库</h2>\n<h3>直接代码编写参数配置</h3>\n<h3>配置文件</h3>\n<p>文件名固定就叫 c</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/c3p0/c3p0-intro",
+            "title": "c3p0详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://commons.apache.org/proper/commons-dbutils/\">commons-dbutils</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/c3p0/index",
+            "title": "commons-dbutils",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>java.math.BigInteger cannot be cast to java.lang.Long</h2>\n<pre><code class=\"language-java\">@Test\n    public void testInser</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/FAQ",
+            "title": "commons-dbutils FAQ",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://commons.apache.org/proper/commons-dbutils/\">commons-dbutils</a></li>\n</ul>\n<h2>API介绍</h2>\n<h3>QueryRunne</h3>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/commons-dbutils-intro",
+            "title": "commons-dbutils详解",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://commons.apache.org/proper/commons-dbutils/\">commons-dbutils</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/commons-dbutils/index",
+            "title": "commons-dbutils",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://maven.apache.org/download.cgi\">maven官网下载</a></li>\n</ul>\n<h2>下载</h2>\n<pre><code class=\"language-shell\">wget https://dlcdn.apache.org</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/maven/build-env/Linux-install-maven",
+            "title": "Linux安装Maven",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/maven/build-env/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/maven/build-env/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/maven/build-env/index",
+            "title": "环境搭建",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://maven.apache.org/download.cgi\">maven官网下载</a></li>\n</ul>\n<h2>下载</h2>\n<pre><code class=\"language-shell\">wget https://dlcdn.apache.org</code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/maven/build-env/windows-install-maven",
+            "title": "windows安装Maven",
+            "date_modified": "2024-11-24T12:00:49.276Z",
+            "date_published": "2024-11-24T12:00:49.276Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>更新日志</h1>\n<h2>2024-09-05</h2>\n<ul>\n<li>完成: rust-stack</li>\n<li>完成: lua-stack</li>\n<li>完成: frontend-stack</li>\n<li>完成: business-stack</li>\n<li>完</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/changes\" target=\"_blank\">https://blog.zdog.top/posts/changes</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/changes",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/hibernate/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/hibernate/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/hibernate/index",
+            "title": "Hibernate",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Spring面试问题</h1>\n<h2>1.@Autowired和@Resource区别?</h2>\n<h4>@Autowired</h4>\n<ul>\n<li>@AutoWired是spring中注解，主要是使用类型来进行注入</li>\n<li>注</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/interview/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/interview/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/interview/index",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>java基础面试问题</h1>\n<h2>1.ThreadLocal原理？</h2>\n<h2>2.HashMap原理？</h2>\n<h2>3.ArrayList原理？</h2>\n<h2>4.ConcurrentHashMap原理？</h2>\n<h2></h2>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/interview/java\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/interview/java</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/interview/java",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h1>Spring 面试问题</h1>\n<h2>@Autowired和@Resource区别?</h2>\n<h4>@Autowired</h4>\n<ul>\n<li>@AutoWired是spring中注解，主要是使用类型来进行注入</li>\n<li>注解</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/interview/spring\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/interview/spring</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/interview/spring",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/jcl/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/jcl/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/jcl/index",
+            "title": "jcl",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/jul/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/jul/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/jul/index",
+            "title": "jul",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>java.util.logging</p>\n<p>UL全称Java util Logging是java原生的日志框架，使用时不需要另外引用第三方类库，相对其他日志框<br>\n架使用方便，学习简单，能够在小型应用中灵活</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/jul/jul-intro",
+            "title": "jul 详解",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>已成为历史</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/log4j/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/log4j/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/log4j/index",
+            "title": "log4j",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/log4j2/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/log4j2/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/log4j2/index",
+            "title": "log4j2",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://logging.apache.org/log4j/2.12.x/manual/appenders.html\">log4j2官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/log4j2/log4j2-intro",
+            "title": "log4j2详解",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://logback.qos.ch/\">logback官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/logback/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/logback/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/logback/index",
+            "title": "logback",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>Logback是Log4j项目的继承者，由Log4j创始人Ceki Gülcü基于过去十年企业级日志系统设计经验打造。Logback比目前所有已存的日志系统要快，它提供了其它日志系统缺失的独特和有</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/logback/logback-intro",
+            "title": "logback详解",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>用来替代JCL的又一抽象实现。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/slf4j/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/slf4j/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/slf4j/index",
+            "title": "slf4j",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>SLF4J 是一个为Java提供简单日志的门面。它并不是一个具体的日志实现，而是提供了一个通用的API，允许开发者选择底层的日志框架。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/slf4j/slf4j-intro",
+            "title": "slf4j详解",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>org.apache.maven.archetypes:maven-archetype-webapp</h2>\n<p>使用maven插件创建出来的项目web.xml版本过低，需要修改</p>\n<p>WEB-INF/w</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/base/IDEA-new-project",
+            "title": "IDEA创建javaweb项目",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/base/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/base/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/base/index",
+            "title": "基础",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>WEB-INF目录</h2>\n<p>WEB-INF目录是一个重要的安全区域，其中包含了所有对客户端不可见的文件和资源。</p>\n<p>这些资源包括web.xml配置文件、class文件、JAR文件、数据库配置文件等。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/base/java-web-intro",
+            "title": "javaweb基础概念详解",
+            "date_modified": "2024-11-24T12:00:49.272Z",
+            "date_published": "2024-11-24T12:00:49.272Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://www.oracle.com/cn/java/technologies/downloads/archive/\">oracle官网</a></li>\n</ul>\n<p>登录到oracle官网，把安装包下载好。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/mac-m3-install-jdk",
+            "title": "mac-m3安装jdk",
+            "date_modified": "2024-11-07T00:00:00.000Z",
+            "date_published": "2024-11-07T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>个人履历</h2>\n<p>本人拥有7年以上开发经验，全栈型工程师，擅长web开发，目前就职于一家在线教育公司。</p>\n<h2>个人技能</h2>\n<ul>\n<li>java python golang php rust c c++ sh</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/cooperation/index\" target=\"_blank\">https://blog.zdog.top/posts/business/cooperation/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/cooperation/index",
+            "title": "商务合作说明",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-log/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-log/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-log/index",
+            "title": "java日志",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-web/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-web/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-web/index",
+            "title": "java-web",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jdbc/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jdbc/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jdbc/index",
+            "title": "JDBC",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/jpa/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/jpa/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/jpa/index",
+            "title": "JPA",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://developer.oracle.com/java/\">官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/maven/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/maven/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/maven/index",
+            "title": "Maven",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://mybatis-flex.com/\">官方文档</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis-flex/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis-flex/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis-flex/index",
+            "title": "Mybatis-Flex",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://baomidou.com/\">官方文档</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/mybatis-plus/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/mybatis-plus/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/mybatis-plus/index",
+            "title": "Mybatis-Plus",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://start.spring.io/\">spring</a></li>\n</ul>\n<h2>版本</h2>\n<p>通常版本介绍会在官网的overview中说明，例如[去查看](<a href=\"https://docs.spring.io/s\">https://docs.spring.io/s</a></p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring/index",
+            "title": "Spring",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-cloud/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-cloud/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-cloud/index",
+            "title": "SpringCloud",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://start.spring.io/\">spring</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/spring-mvc/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/spring-mvc/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/spring-mvc/index",
+            "title": "SpringMVC",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://start.spring.io/\">spring</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/springboot/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/springboot/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/springboot/index",
+            "title": "SpringBoot",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>如何使用？</h2>\n<h2>新版本</h2>\n<h3>引入jar</h3>\n<pre><code class=\"language-xml\"> &lt;!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf </code></pre>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/thymeleaf/how-to-use",
+            "title": "如何使用Thymeleaf",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://www.thymeleaf.org/\">官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/thymeleaf/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/thymeleaf/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/thymeleaf/index",
+            "title": "Thymeleaf",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://tomcat.apache.org/\">tomcat官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/tomcat/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/tomcat/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/tomcat/index",
+            "title": "Tomcat",
+            "date_modified": "2024-09-05T00:00:00.000Z",
+            "date_published": "2024-09-05T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Unchecked Exception</h2>\n<p>Unchecked exception 是指在编译时并不要求必须处理的异常。</p>\n<p>Unchecked exception 包括 RuntimeExc</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/exception/exception-intro",
+            "title": "异常介绍",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/exception/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/exception/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/exception/index",
+            "title": "异常",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>可以使用 Files 工具类的 copy(Path source,Path target,CopyOption... options) 拷贝文件或者目录。<br>\n如果目标文件存在，那么赋值将失败，除非</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/fn-utils/Files-copy",
+            "title": "Files.copy",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/fn-utils/index",
+            "title": "函数工具",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/index",
+            "title": "小知识",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>JavaEE被Oracle捐献给Apache了。目前最高版本是 JavaEE8；</p>\n<p>Apache把JavaEE换名了，以后不叫JavaEE了，以后叫做 jakarta EE。</p>\n<p>以后没有Java</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/javax-jakarta-diff",
+            "title": "javax与jakarta区别",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>默认编码为ISO-8859-1, 只能写一些简单字符。</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/knowledge-snack/properties-intro",
+            "title": "properties文件",
+            "date_modified": "2024-09-04T00:00:00.000Z",
+            "date_published": "2024-09-04T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/index\" target=\"_blank\">https://blog.zdog.top/posts/business/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/index",
+            "title": "商务",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://developer.oracle.com/java/\">官网</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/index",
+            "title": "Java",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>abo</h2>\n<p>臭名昭著的一套代码模式，充斥在各个编程语言，严重扰乱市场，质量堪忧。</p>\n<ul>\n<li>架构设计有问题，都是单表操作，一旦夸表发现很难更改，维护困难</li>\n<li>数据表是中文拼音命名</li>\n<li>前端nodejs</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/cooperation/faq\" target=\"_blank\">https://blog.zdog.top/posts/business/cooperation/faq</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/cooperation/faq",
+            "title": "接单注意事项",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/job-case/frontend-case\" target=\"_blank\">https://blog.zdog.top/posts/business/job-case/frontend-case</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/job-case/frontend-case",
+            "title": "前端接单案例",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/job-case/index\" target=\"_blank\">https://blog.zdog.top/posts/business/job-case/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/job-case/index",
+            "title": "接单案例",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Jsp+Servlet</h2>\n<ul>\n<li>jsp+servlet 登录+对用户信息的增删改查</li>\n<li>jsp+servlet 对学生信息的增删改查</li>\n<li>jsp+servlet 冰雪旅游网[黑马旅游网改编过来</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/job-case/java-case\" target=\"_blank\">https://blog.zdog.top/posts/business/job-case/java-case</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/job-case/java-case",
+            "title": "java接单案例",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/job-case/mysql-cluster-case\" target=\"_blank\">https://blog.zdog.top/posts/business/job-case/mysql-cluster-case</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/job-case/mysql-cluster-case",
+            "title": "Mysql集群接单案例",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/business/job-case/python-case\" target=\"_blank\">https://blog.zdog.top/posts/business/job-case/python-case</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/business/job-case/python-case",
+            "title": "python接单案例",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/index",
+            "title": "java基础",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/index\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/index</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/index",
+            "title": "环境搭建",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Java Path</h2>\n<p>Java Path 通常指的是JDK的安装路径。JDK是Java Development Kit的缩写，它包含了Java编译器、Java运行时环境以及一些工具，如Jav</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-environment-variable",
+            "title": "jdk环境变量",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>各厂家jdk区别</h2>\n<ul>\n<li>\n<p>OpenJDK<br>\n​OpenJDK 是 JDK 的社区版，社区主要由Oracle主导，免费。</p>\n</li>\n<li>\n<p>Oracle JDK<br>\n​Oracle JDK 是Java官方Orac</p>\n</li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/jdk-introduce",
+            "title": "jdk介绍",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://www.jenv.be/\">jenv 官网</a></li>\n<li><a href=\"https://github.com/jenv/jenv\">jenv github</a></li>\n</ul>\n<p>Linux环境下Java多版本管理</p>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/jenv",
+            "title": "jenv",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>假设已下载好安装包。</p>\n<h2>如何安装</h2>\n<pre><code class=\"language-shell\">tar -zxvf xxx.tar.gz\n\nmv java-se-8u41-ri /usr/local/java8/\n</code></pre>\n<h2>添加环</h2>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/linux-install-jdk",
+            "title": "Linux安装jdk",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<ul>\n<li><a href=\"https://adoptium.net/zh-CN/temurin/releases/\">adoptium</a></li>\n<li>[openlogic](<a href=\"https://www.openlogic.com\">https://www.openlogic.com</a></li>\n</ul>\n<br/><p>访问 <a href=\"https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk\" target=\"_blank\">https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk</a> 阅读全文。</p>",
+            "url": "https://blog.zdog.top/posts/java-stack/java-base/build-env/windows-install-jdk",
+            "title": "windows安装jdk",
+            "date_modified": "2024-09-03T00:00:00.000Z",
+            "date_published": "2024-09-03T00:00:00.000Z",
+            "author": {
+                "name": "仔仔",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
